@@ -1,0 +1,40 @@
+.login-form, .signup-form{
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: block;
+    // background: rgba()
+    box-shadow: 5px 5px 10px #000;
+
+    label{
+        display: block;
+    }
+    input[type="text"], input[type="password"]{
+        padding: 5px;
+        // border: none;
+        transition: all 0.2s;
+        &:focus{
+            border: none;
+            box-shadow: 3px 3px 5px rgb(78, 78, 78);
+            outline: none;
+        }
+    }
+    button{
+        margin-top: 10px;
+        cursor: pointer;
+        color: #fff;
+        padding: 10px;
+        border-radius: 25px;
+        border: none;
+        background: rgb(241, 122, 10);
+        transition: all 0.5s;
+        &:hover{
+            transform: scale(1.2,1.2);
+        }
+    }
+}
+
+.signup-form{
+    height: 500px;
+}

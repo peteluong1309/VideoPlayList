@@ -1,5 +1,5 @@
 import {combineReducers} from 'redux';
-import {videoPlaylist} from './VideoPlaylist';
+import videoPlaylist from './VideoPlaylist';
 
 const rootReducer = combineReducers({
     videoPlaylist
